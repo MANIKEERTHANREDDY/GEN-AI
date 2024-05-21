@@ -1,0 +1,64 @@
+<departments>
+    <department>
+        <name>Computer Science</name>
+        <year>
+            <id>1</id>
+            <name>First Year</name>
+            <students>
+                <student>
+                    <id>1</id>
+                    <name>Alice</name>
+                </student>
+                <student>
+                    <id>2</id>
+                    <name>Bob</name>
+                </student>
+            </students>
+        </year>
+        <year>
+            <id>2</id>
+            <name>Second Year</name>
+            <students>
+                <student>
+                    <id>3</id>
+                    <name>Charlie</name>
+                </student>
+                <student>
+                    <id>4</id>
+                    <name>Diana</name>
+                </student>
+            </students>
+        </year>
+    </department>
+    <department>
+        <name>Mathematics</name>
+        <year>
+            <id>1</id>
+            <name>First Year</name>
+            <students>
+                <student>
+                    <id>5</id>
+                    <name>Eve</name>
+                </student>
+                <student>
+                    <id>6</id>
+                    <name>Frank</name>
+                </student>
+            </students>
+        </year>
+        <year>
+            <id>2</id>
+            <name>Second Year</name>
+            <students>
+                <student>
+                    <id>7</id>
+                    <name>Grace</name>
+                </student>
+                <student>
+                    <id>8</id>
+                    <name>Hank</name>
+                </student>
+            </students>
+        </year>
+    </department>
+</departments>
