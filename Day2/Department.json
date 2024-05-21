@@ -1,0 +1,37 @@
+{
+
+  "departments": [
+
+    {
+
+      "name": "Computer Science",
+
+      "head": "xxxx",
+
+      "code": "CSE"	
+
+    },
+
+    {
+
+      "name": "Electrical Engineering",
+
+      "head": "yyyy",
+
+      "code": "EEE"
+
+    },
+
+    {
+
+      "name": "Electrical communication",
+
+      "head": "zzzz",
+
+      "code": "ECE"
+
+    }
+
+  ]
+
+}
