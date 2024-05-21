@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Map Example</title>
+    <style>
+        #map {
+            height: 400px;  /* Specify the height of the map container */
+            width: 100%;    /* Make the map fill the entire width */
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Map Example</h1>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 40.7128, lng: -74.0060}, // Set the initial center of the map to New York City
+                zoom: 12  // Set the initial zoom level
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</body>
+</html>
