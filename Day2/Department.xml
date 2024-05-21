@@ -1,0 +1,22 @@
+<departments>
+    <department>
+        <id>21</id>
+        <name>Computer Science</name>
+        <head>Dr.ram</head>
+    </department>
+    <department>
+        <id>22</id>
+        <name>Mathematics</name>
+        <head>Dr.xxxxx</head>
+    </department>
+    <department>
+        <id>23</id>
+        <name>Physics</name>
+        <head>Dr.yyyyyyy</head>
+    </department>
+    <department>
+        <id>24</id>
+        <name>Chemistry</name>
+        <head>Dr. rehsma</head>
+    </department>
+</departments>
