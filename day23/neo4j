@@ -56,3 +56,48 @@ CREATE
   (thirdYear)-[:HAS_STUDENT]->(omkar),
   (thirdYear)-[:HAS_STUDENT]->(shiva),
   (fourthYear)-[:HAS_STUDENT]->(varun);
+
+
+
+
+for famly
+
+// Create family members and relationships
+CREATE 
+  (sangareddy:Person {name: 'sangareddy'}),
+  (laxmi:Person {name: 'laxmi'}),
+  (santhosh:Person {name: 'santhosh'}),
+  (swaroopa:Person {name: 'swaropa'}),
+  (naresh:Person {name: 'naresh'}),
+  (latha:Person {name: 'latha'}),
+  (pintu:Person {name: 'pintu'}),
+  (siri:Person {name: 'siri'}),
+  (cherry:Person {name: 'cherry'}),
+  (kushi:Person {name: 'kushi'}),
+
+  (laxmi)-[:SPOUSE_OF]->(sangareddy),
+  (swaroopa)-[:SPOUSE_OF]->(santhosh),
+  (latha)-[:SPOUSE_OF]->(naresh),
+
+  (sangareddy)-[:FATHER_OF]->(santhosh),
+  (sangareddy)-[:FATHER_OF]->(naresh),
+  (laxmi)-[:MOTHER_OF]->(santhosh),
+  (laxmi)-[:MOTHER_OF]->(naresh),
+  (santhosh)-[:FATHER_OF]->(pintu),
+  (santhosh)-[:FATHER_OF]->(siri),
+  (swaroopa)-[:MOTHER_OF]->(pintu),
+  (swaroopa)-[:MOTHER_OF]->(siri),
+  (naresh)-[:FATHER_OF]->(cherry),
+  (naresh)-[:FATHER_OF]->(kushi),
+  (latha)-[:MOTHER_OF]->(cherry),
+  (latha)-[:MOTHER_OF]->(kushi),
+
+  (sangareddy)-[:GRANDFATHER_OF]->(pintu),
+  (sangareddy)-[:GRANDFATHER_OF]->(siri),
+  (sangareddy)-[:GRANDFATHER_OF]->(kushi),
+  (sangareddy)-[:GRANDFATHER_OF]->(cherry),
+  (laxmi)-[:GRANDMOTHER_OF]->(pintu),
+  (laxmi)-[:GRANDMOTHER_OF]->(siri),
+  (laxmi)-[:GRANDMOTHER_OF]->(cherry),
+  (laxmi)-[:GRANDMOTHER_OF]->(kushi);
+
